@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="form.css" />
+    <title>Melon</title>
+  </head>
+
+    <body>
+      <header>
+        <nav>
+          <a href="index.html">
+            <img src="img/logo.png" alt="宮本農園">
+          </a>
+          <div class="melon"><img src="img/melon14.png"></div>
+        </nav>
+      </header>
+      <section class="form">
+        <h1>お問合せ</h1>
+            <form method="post" action="mail.php">
+             お名前  <input type="text">
+             住所  <input type="text" placeholder="〒">
+                  <input type="text">
+                  <input type="text">
+             電話番号  <input type="tel">
+             メールアドレス  <input type="email">
+             詳細  <input type="text">
+             件名  <input type="radio" name="detail" value="商品購入"> 商品購入
+                  <input type="radio" name="detail" value="その他" checked> その他
+            </form>
+            <button class="submit-button">送信</button>
+        </section>
+
+        <footer>
+          <p class="information">宮本農園<br>〒000-0000<br>茨城県〇〇市〇〇0-00-0<br>電話：00-0000-0000<br>メール：miyamoto.mai.pc@gmail.com</p>
+          <img src="img/sns.png">
+        </footer>
+    </body>
+</html>
